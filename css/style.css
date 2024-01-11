@@ -77,5 +77,8 @@ h2 {
 }
 
 footer {
+    display: flex;
+    position: fixed;
     text-align: center;
+
 }
