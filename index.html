@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Deportivo Midland</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- LINK DE BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body class="container-fluid">
+    <header>
+        <!-- Perdon por los br:( -->
+        <br>
+        <br>
+        <br>
+        <!-- DESPLEGABLE -->
+        <nav class="navbar navbar-dark bg-dark fixed-top ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><a class="navbar-brand" href="index.html">
+                        <img src="img/logo.png" alt="Logo" width="75" height="75" d-inline-block align-text-top> Club
+                        Deportivo Midland
+                    </a></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu de Navegacion</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/html/contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/html/nuestrashistoria.html">Nuestra Historia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/html/plantilla.html">Plantilla</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/html/sponsors.html">Sponsors</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="nuestrashistoria.html" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Redes Sociales
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item"
+                                            href="https://www.instagram.com/club.deportivo.midland/">instagram</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.threads.net/@club.deportivo.midland">Threads</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Cerrar</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        </nav>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Texto contraste oscuro -->
+        <div class="text-bg-dark p-3">
+            <!--TItulo  -->
+            <h1 class="titulo">¿Que es la CDM?</h1>
+            <p class="titulo">Club Deportivo Midland es un equipo de futbol que se encuentra en San Luis del Palmar,
+                Corrientes, Argentina
+            </p>
+            <!-- Ubicacion en google maps -->
+            <iframe class="container-fluid "
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28309.324573193302!2d-58.57771100945576!3d-27.510774319699635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9445457fae83944b%3A0xd54c1311e7586b56!2sSan%20Luis%20del%20Palmar%2C%20Corrientes!5e0!3m2!1ses-419!2sar!4v1702246779236!5m2!1ses-419!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <br>
+            <!-- CARROUSEL -->
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/foto (1).jpg" class="d-block w-100" alt="foto del equipo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/foto (2).jpg" class="d-block w-100" alt="foto del equipo 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/foto (3).jpg" class="d-block w-100" alt="foto del equipo 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/foto (4).jpg" class="d-block w-100" alt="foto del equipo 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/foto (5).jpg" class="d-block w-100" alt="foto del equipo 5">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <h4>Club Deportivo Midland - Todos los derechos reservados</h4>
+    </footer>
+    <!-- SCRIPT DE BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
