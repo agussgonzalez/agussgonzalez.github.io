@@ -1,84 +1,83 @@
-.fotos3 {
-    width: 500px;
-    height: 300px;
-    margin-left: 420px;
-}
-
-.fotos2 {
-    width: 263px;
-    height: 300px;
-    margin-left: 520px;
-}
-
-.fotos {
-    width: 263px;
-    height: 300px;
-}
-
-.jugador4x4 {
-    width: 150px;
-    height: 100px;
-}
-
-.plantilla {
-    text-transform: uppercase;
-    font-size: 50px;
-    list-style: none;
-}
-
+/* CONTACTO */
 .contenedor {
-    border-top: solid red;
-    border-left: solid red;
-    border-right: solid gold;
-    border-bottom: solid gold;
-    border-radius: 5px;
-    margin: 20px 500px 20px 500px
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 4%;
 }
-
-.contenedor2 {
-    border-top: solid red;
-    border-left: solid red;
-    border-right: solid gold;
-    border-bottom: solid gold;
-    border-radius: 5px;
-    margin: 20px 500px 20px 500px
-}
-
-header {
-    background-color: red;
-    border-bottom: 1px solid white;
-    text-align: center;
-    padding: 10px 20px;
-}
-
-nav ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0px 10px;
-}
-
-a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: white;
+.contenedor p {
+  font-size: 25px;
 }
 
 .boton {
-    margin-left: 175px;
+  justify-content: center;
+  background-color: gold;
 }
 
-.titulo {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
+/* FOOTER / PIE DE PAGINA */
 footer {
-    display: flex;
-    position: fixed;
-    text-align: center;
-
+  text-align: center;
+  color: black;
 }
+
+/* Header */
+header {
+  background-color: black;
+  border-bottom: 1px solid white;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+/* TITULO */
+.titulo {
+  text-align: center;
+}
+
+/* H2 */
+h2 {
+  text-align: center;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #fafafa;
+  text-transform: uppercase;
+  color: #fafafa;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*  Fotos de Historia */
+.fotos2 {
+  display: flex;
+  align-items: center;
+  width: 450px;
+  height: 350px;
+  margin: auto;
+}
+
+/* Plantilla */
+.plantilla {
+  text-transform: uppercase;
+  font-size: 50px;
+  list-style: none;
+}
+
+/* Fotos de los jugadores de la plantilla */
+.jugador4x4 {
+  width: 150px;
+  height: 100px;
+}
+
+/* Sponsors */
+.fotos3 {
+  display: flex;
+  align-content: center;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
